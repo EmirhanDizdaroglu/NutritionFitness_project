@@ -1,0 +1,190 @@
+/* Genel stiller */
+body {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+/* Ana container stillemesi */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlıklar için genel stil */
+h1, h2 {
+  color: #333;
+}
+
+/* Form input ve button genel stillemesi */
+input[type="text"],
+input[type="email"],
+button {
+  padding: 10px;
+  margin-left: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+}
+
+button {
+ 
+  background-color: #FFC107;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+  height: auto;
+
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffc10797;
+}
+
+/* Tablo stillemesi */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f9;
+}
+
+/* Düzenleme ve silme butonları için stil */
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #d9534f;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #ec971f;
+}
+
+.delete-btn:hover {
+  background-color: #c9302c;
+}
+
+/* Admin panel stilleri */
+.admin-panel-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.admin-panel-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.admin-panel-button:hover {
+  background-color: #45a049;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Menü renkleri */
+.user-list {
+  background-color: #2196F3;
+}
+
+.user-list:hover {
+  background-color: #1E88E5;
+}
+
+.diet-list {
+  background-color: #FF9800;
+}
+
+.diet-list:hover {
+  background-color: #FB8C00;
+}
+
+.sports-movements {
+  background-color: #9C27B0;
+}
+
+.sports-movements:hover {
+  background-color: #8E24AA;
+}
+
+/* Navbar stilleri */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  display: flex; /* Navbar'ı yatay hizaya getirmek için */
+  justify-content: center; /* Başlıkları ortalamak için */
+  align-items: center; /* Dikey hizalama için */
+  padding: 21px; /* Navbar yüksekliğini artırmak için */
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Yatay hizalama için */
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
